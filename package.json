@@ -1,0 +1,33 @@
+{
+  "name": "codefy-default-bootstrap-project",
+  "version": "1.0.0",
+  "description": "Initial project for sites in bootstrap",
+  "author": "Codefy  <contato@codefy.ninja>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fillipeamorim/codefy-default-bootstrap-project.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "browser-sync": "^2.9.6",
+    "gulp": "^3.8.10",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-bower": "0.0.13",
+    "gulp-cache": "^0.3.0",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-inline-source": "^2.1.0",
+    "gulp-less": "^3.0.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^2.0.0-alpha",
+    "gulp-uglify": "^1.4.1",
+    "gulp-watch": "^4.1.0",
+    "run-sequence": "^1.1.4"
+  }
+}

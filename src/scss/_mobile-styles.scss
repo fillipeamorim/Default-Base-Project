@@ -1,0 +1,48 @@
+// ==========================================================================
+// Mobile Custom Styles
+// ==========================================================================
+
+// Overrides
+a {
+  color: $black;
+  text-decoration: none;
+  @extend .font-700;
+  @extend .animate;
+}
+
+// Branding
+.logo {
+  @extend .block;
+  @extend .no-margin;
+  @extend .center-element;
+  width: 125px;
+  height: 50px;
+  a {
+    @extend .inline-block;
+    width: 125px;
+    height: 50px;
+    text-indent: -99999em;
+    background: url('img/codefy.png') no-repeat center;
+  }
+}
+
+// Banner
+.banner {
+  background: $yellow;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  @extend .text-center;
+  .banner-heading {
+    @extend .strong;
+    margin: .7em 0;
+  }
+  .banner-resume {
+    margin: 1em 0;
+  }
+  .banner-button {
+    margin-top: 3em;
+    .button {
+      @extend .inline-block;
+    }
+  }
+}
